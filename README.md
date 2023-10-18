@@ -5,7 +5,8 @@ https://github.com/ryoppippi/sveltekit_inspector.vim/assets/1560508/4b8a3903-333
 
 
 
-Based on [this article](https://theosteiner.de/open-neovim-from-your-browser-integrating-nvim-with-sveltes-inspector)
+Based on [this article](https://theosteiner.de/open-neovim-from-your-browser-integrating-nvim-with-sveltes-inspector)  
+You can learn how to use the inspector from [the official readme](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/config.md#inspector)
 
 ## Dependencies
 You need to install [flatten.nvim](https://github.com/willothy/flatten.nvim) or [guice.vim](https://github.com/lambdalisue/guise.vim/tree/main)
