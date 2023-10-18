@@ -1,4 +1,4 @@
-# sveltekit_inspector.vim
+# svelte_inspector.vim
 
 
 https://github.com/ryoppippi/sveltekit_inspector.vim/assets/1560508/4b8a3903-3339-43d2-817a-2ff246b81416
@@ -17,18 +17,18 @@ Setup with your favorite plugin manager:
 
 vim script:
 ```vim
-sveltekit_inspector#setup()
+svelte_inspector#setup()
 ```
 
 lua:
 ```lua
-require("sveltekit_inspector").setup()
+require("svelte_inspector").setup()
 ```
 
 This is my config with lazy.nvim
 ```lua
 return {
-	"ryoppippi/sveltekit_inspector.vim",
+	"ryoppippi/svelte_inspector.vim",
 	dependencies = { "willothy/flatten.nvim" },
 	lazy = false,
 	config = true,
