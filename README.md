@@ -9,7 +9,9 @@ Based on [this article](https://theosteiner.de/open-neovim-from-your-browser-int
 You can learn how to use the inspector from [the official readme](https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/config.md#inspector)
 
 ## Dependencies
-You need to install [flatten.nvim](https://github.com/willothy/flatten.nvim) or [guice.vim](https://github.com/lambdalisue/guise.vim/tree/main)
+You need to install 
+- [flatten.nvim](https://github.com/willothy/flatten.nvim) or [guice.vim](https://github.com/lambdalisue/guise.vim/tree/main)
+- [fileline.nvim](https://github.com/lewis6991/fileline.nvim), [File-line](https://github.com/bogado/file-line) or [vim-fetch](https://github.com/wsdjeg/vim-fetch)
 
 ## Config
 
@@ -29,7 +31,10 @@ This is my config with lazy.nvim
 ```lua
 return {
 	"ryoppippi/svelte_inspector.vim",
-	dependencies = { "willothy/flatten.nvim" },
+	dependencies = {
+	    "willothy/flatten.nvim",
+	    "lewis6991/fileline.nvim",
+	},
 	lazy = false,
 	config = true,
 }
