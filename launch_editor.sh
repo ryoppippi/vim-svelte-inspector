@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 filename=$1
 line=${2:-"1"}
 column=${3:-"1"}
